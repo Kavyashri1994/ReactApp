@@ -1,0 +1,160 @@
+@import  "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50% ;
+  float: left;
+  margin-left: 15%;
+  margin-top: 25px;
+}
+.header-div {
+  background-color: lightgray;
+  height: 200px;
+  width:100%;
+  border: solid 2px gray;
+}
+.header-label {
+  margin-left: 30%;
+}
+.title {
+  padding-top: 25px;
+}
+.Shoppingcart-items {
+  height: 300px;
+  border-bottom: solid 2px lightgray;
+}
+
+.img-main {
+  height: 250px;
+  width: 250px;
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+.item {
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  float:left;
+}
+.images {
+  width: 250px;
+  height: 250px;
+  border: solid 1px lightgrey;
+  border-radius: 5%;
+}
+.product-items {
+  text-align: center;
+}
+.view-more {
+  float: right;
+  border: none;
+  background: none;
+}
+.product {
+  width:100%;
+  border:solid 2px lightgray;
+  margin-top: 7px;
+  height: 410px;
+}
+.bar-items {
+  height: 220px;
+  text-align: center;
+  padding-top: 10px;
+  width:100%;
+}
+.items-bar {
+  display: block;
+  margin-top: 10px;
+  font-size: 25px;
+
+}
+.bar {
+  background-color: lightgrey;
+  border: solid 2px gray;
+  align-items: center;
+}
+.offer {
+  height: 250px;
+}
+.offer-img {
+  height: 230px;
+  width:90%;
+  overflow-x: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  border:solid 2px lightgray;
+  border-radius: 7px;
+  float: left;
+}
+
+.List {
+  height: 400px;
+  margin-top: 40px;
+  border: solid 2px lightgray;
+}
+.list-more {
+  text-align-last: end;
+}
+.message-img {
+  float:left;
+  margin-left: 30px;
+}
+.message-text{
+  margin-left: 150px;
+}
+.message {
+  border: solid 2px lightgray;
+}
+.que {
+  text-align: center;
+  margin-top: 30px;
+}
+.icon-mail {
+  border: none;
+  border-radius: 50%;
+  padding:2px;
+  width:25px;
+  height: 25px;
+  background-color: deepskyblue;
+}
+.mail-2 {
+  text-align: center;
+}
+.sellet-div {
+  border: solid 1px black;
+  box-sizing: border-box;
+  text-align: center;
+}
+.seller-main {
+  border: solid 2px lightgray;
+}
